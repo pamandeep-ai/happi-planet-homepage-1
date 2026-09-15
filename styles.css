@@ -22,4 +22,4 @@ footer{padding:45px 0 24px;color:var(--mint);background:var(--dark)}.foot{displa
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}.promise-track{animation:none}.promise-set[aria-hidden=true]{display:none}}
 /* Preserve the complete hero artwork at every breakpoint. */
 .hero-slide img{inset:0;width:100%;height:100%;object-fit:contain;object-position:center center}
-.hero-slide--kitchen img,.hero-slide--home img{inset:0;width:100%;height:100%;object-fit:contain;object-position:center center}
+.hero-slide--kitchen img,.hero-slide--home img{inset:0;width:100%;height:100%;object-fit:fill;object-position:center center}
