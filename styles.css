@@ -20,3 +20,5 @@ footer{padding:45px 0 24px;color:var(--mint);background:var(--dark)}.foot{displa
 @media(max-width:359px){:root{--gutter:16px}.product-copy{padding-inline:9px}.guide .use{padding-left:61px}.guide .use img{width:46px;height:46px}.tiers span{padding-inline:10px}}
 @media(max-width:699px){.promise-track{animation-duration:42s}.steps{grid-template-columns:1fr;max-width:360px}.steps div{padding:22px 18px}.hero-dots{height:32px}.bundle-imgs{padding:6px 8px}.bundle-imgs img{height:130px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}.promise-track{animation:none}.promise-set[aria-hidden=true]{display:none}}
+/* Preserve the complete hero artwork at every breakpoint. */
+.hero-slide img{inset:0;width:100%;height:100%;object-fit:contain;object-position:center center}
